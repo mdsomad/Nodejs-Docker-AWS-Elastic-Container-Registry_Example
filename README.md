@@ -1,8 +1,4 @@
-```sh
-# AWS ECS
 
-CMD-SHELL, curl -f http://localhost:8000/health || exit 1
-```
 
 # Amazon Elastic Container Service
 
@@ -60,6 +56,13 @@ aws configure
 
 ## 👇 Task definition configuration
 ![Task definition configuration](https://github.com/user-attachments/assets/5d601092-bca0-40d6-be90-42674b01d7cf)
+
+```sh
+# AWS ECS
+
+CMD-SHELL, curl -f http://localhost:8000/health || exit 1
+```
+
 ![Task Overview](https://github.com/user-attachments/assets/4346c7c4-925a-45fd-98b1-0593fee88bf8)
 
 
